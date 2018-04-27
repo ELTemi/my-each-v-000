@@ -8,3 +8,5 @@ def my_each(mine) # put argument(s) here
     mine
   end# code here
 end
+
+my_each(mine) { |i| puts i}
