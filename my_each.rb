@@ -9,8 +9,8 @@ end
 
 def my_each(array)
   my_each(array) do |wordi = 0
-    while i < mine.length
-      yield mine[i]
+    while i < array.length
+      yield array[i]
       i += 1
     end
     array
