@@ -6,7 +6,5 @@ def my_each(mine) # put argument(s) here
       i += 1
     end
     mine
-  else
-    "No block given"
   end# code here
-end 
+end
