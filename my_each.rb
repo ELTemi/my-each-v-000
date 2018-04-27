@@ -13,6 +13,6 @@ def my_each(array)
       yield mine[i]
       i += 1
     end
-    array     
+    array
   end
 end
