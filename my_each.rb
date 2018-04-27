@@ -1,12 +1,10 @@
 def my_each(array) # put argument(s) here
-  if block.given?
-    i = 0
-    while i < mine.length
-      yield mine[i]
-      i += 1
-    end
-    array
-  end# code here
+  i = 0
+  while i < mine.length
+    yield mine[i]
+    i += 1
+  end
+  array
 end
 
-my_each(i) { |i| puts i}
+my_each(array) { |i| puts i}
